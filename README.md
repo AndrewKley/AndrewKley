@@ -1,10 +1,42 @@
-- 👋 Hi, I’m @AndrewKley
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+# Hello there
 
-<!---
-AndrewKley/AndrewKley is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+```python
+
+class SoftwareEngineer:
+
+    def __init__(self):
+        self.name = "Andrew"
+        self.specializations = [
+            "python",
+            "C",
+            "C#",
+            "Bash"
+        ]
+    
+    def introduce_myself(self):
+        print("name: " + self.name)
+        print("specializations: ", end='')
+        for i in range(len(self.specializations)):
+            print(self.specializations[i], end='') 
+            if i != len(self.specializations) - 1:
+                print(', ', end='')
+
+me = SoftwareEngineer()
+me.introduce_myself()
+```
+
+## 📝 Blogs
+- LeetCode Solutions & Notes:  https://AndrewKley.github.io/leetcode/
+
+## 🔧 Technologies & Tools
+![](https://img.shields.io/badge/Code-Python-informational?style=flat&logo=python&logoColor=white&color=6aa6f8)
+![](https://img.shields.io/badge/OS-Linux-informational?style=flat&logo=linux&logoColor=white&color=6aa6f8)
+![](https://img.shields.io/badge/Editor-VS_Code-informational?style=flat&logo=visual-studio-code&logoColor=white&color=6aa6f8)
+![](https://img.shields.io/badge/Shell-Bash-informational?style=flat&logo=gnu-bash&logoColor=white&color=6aa6f8)
+![](https://img.shields.io/badge/Tools-PostgreSQL-informational?style=flat&logo=postgresql&logoColor=white&color=6aa6f8)
+![](https://img.shields.io/badge/Tools-Docker-informational?style=flat&logo=docker&logoColor=white&color=6aa6f8)
+
+
+## 🏆 GitHub Trophies
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=AndrewKley&theme=nord&column=7)](https://github.com/ryo-ma/github-profile-trophy)
