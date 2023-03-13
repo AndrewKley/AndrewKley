@@ -1,4 +1,4 @@
-# Hello there
+# Hello there 👋
 
 ```python
 
@@ -13,16 +13,11 @@ class SoftwareEngineer:
             "Bash"
         ]
     
-    def introduce_myself(self):
-        print("name: " + self.name)
-        print("specializations: ", end='')
-        for i in range(len(self.specializations)):
-            print(self.specializations[i], end='') 
-            if i != len(self.specializations) - 1:
-                print(', ', end='')
+    def say_hi(self):
+        print("Hello, I'm", self.name) 
 
 me = SoftwareEngineer()
-me.introduce_myself()
+me.say_hi()
 ```
 
 ## 📝 Blogs
