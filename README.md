@@ -26,7 +26,7 @@ me.introduce_myself()
 ```
 
 ## 📝 Blogs
-- LeetCode Solutions & Notes:  https://AndrewKley.github.io/leetcode/
+- LeetCode Profile:  https://leetcode.com/AndrewKley/
 
 ## 🔧 Technologies & Tools
 ![](https://img.shields.io/badge/Code-C-informational?style=flat&logo=C&logoColor=white&color=green)
