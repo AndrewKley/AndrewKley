@@ -7,8 +7,9 @@ class SoftwareEngineer:
     def __init__(self):
         self.name = "Andrew"
         self.specializations = [
-            "python",
+            "Java",
             "C",
+            "Python",
             "C#",
             "Bash"
         ]
